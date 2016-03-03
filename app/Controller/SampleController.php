@@ -1,15 +1,11 @@
 
 <?php
 App::uses('AppController', 'Controller');
- 
+
 class SampleController extends AppController {
- 
     public function index() {
-        $this -> autoRender = false;
-        echo "<html><head></head><body>";
-        echo "<h1>サンプルページ</h1>";
-        echo "<p>これがサンプルのページです。</p>";
-        echo "</body></html>";
+        $this->autoLayout = false;
+        //echo $this->Html->script('bootstrap.min.js');
+        //echo $this->Html->css('bootstrap.min.css');
     }
- 
 }

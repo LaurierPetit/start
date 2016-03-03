@@ -1,0 +1,29 @@
+2016-03-03 17:38:22 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-03 18:19:35 Error: Fatal Error (1): Call to a member function script() on a non-object in [/projects/start/app/Controller/SampleController.php, line 8]
+2016-03-03 18:19:35 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 8, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 8, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-03 18:20:12 Error: Fatal Error (1): Call to a member function script() on a non-object in [/projects/start/app/Controller/SampleController.php, line 8]
+2016-03-03 18:20:12 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 8, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 8, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
