@@ -1,29 +1,212 @@
-2016-03-03 17:38:22 Error: [MissingControllerException] Controller class CakephpController could not be found.
+2016-03-06 15:13:24 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:13:24 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:16:06 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:16:06 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:16:09 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:16:09 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:16:41 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:16:41 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:16:58 Error: Fatal Error (4): syntax error, unexpected '.', expecting ',' or ';' in [/projects/start/app/Controller/AppController.php, line 34]
+2016-03-06 15:16:58 Error: [FatalErrorException] syntax error, unexpected '.', expecting ',' or ';'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 34, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 34, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:17:09 Error: Fatal Error (4): syntax error, unexpected '.', expecting ',' or ';' in [/projects/start/app/Controller/AppController.php, line 34]
+2016-03-06 15:17:09 Error: [FatalErrorException] syntax error, unexpected '.', expecting ',' or ';'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 34, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 34, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:17:19 Error: Fatal Error (4): syntax error, unexpected '.', expecting ',' or ';' in [/projects/start/app/Controller/AppController.php, line 34]
+2016-03-06 15:17:19 Error: [FatalErrorException] syntax error, unexpected '.', expecting ',' or ';'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 34, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 34, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:17:57 Error: [MissingPluginException] Plugin SmartyView could not be found.
 Exception Attributes: array (
-  'class' => 'CakephpController',
-  'plugin' => NULL,
+  'plugin' => 'SmartyView',
 )
-Request URL: /cakephp
-Stack Trace:
-#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2016-03-03 18:19:35 Error: Fatal Error (1): Call to a member function script() on a non-object in [/projects/start/app/Controller/SampleController.php, line 8]
-2016-03-03 18:19:35 Error: [FatalErrorException] Call to a member function script() on a non-object
 Request URL: /sample
 Stack Trace:
-#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 8)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 8, Array)
-#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 8, Array)
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SampleController), Object(CakeRequest))
+#7 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-03-06 15:19:36 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:19:36 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
 #3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
-2016-03-03 18:20:12 Error: Fatal Error (1): Call to a member function script() on a non-object in [/projects/start/app/Controller/SampleController.php, line 8]
-2016-03-03 18:20:12 Error: [FatalErrorException] Call to a member function script() on a non-object
+2016-03-06 15:20:11 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:20:11 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
 Request URL: /sample
 Stack Trace:
-#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 8)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 8, Array)
-#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 8, Array)
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
 #3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-03-06 15:24:34 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:24:34 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:24:55 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-06 15:24:55 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-06 15:27:30 Error: [MissingPluginException] Plugin SmartyView could not be found.
+Exception Attributes: array (
+  'plugin' => 'SmartyView',
+)
+Request URL: /
+Stack Trace:
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/app/Controller/PagesController.php(68): Controller->render('home')
+#6 [internal function]: PagesController->display('home')
+#7 /projects/start/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /projects/start/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-03-06 15:27:35 Error: [MissingPluginException] Plugin SmartyView could not be found.
+Exception Attributes: array (
+  'plugin' => 'SmartyView',
+)
+Request URL: /
+Stack Trace:
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/app/Controller/PagesController.php(68): Controller->render('home')
+#6 [internal function]: PagesController->display('home')
+#7 /projects/start/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /projects/start/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-03-06 15:28:08 Error: [MissingPluginException] Plugin SmartyView could not be found.
+Exception Attributes: array (
+  'plugin' => 'SmartyView',
+)
+Request URL: /
+Stack Trace:
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/app/Controller/PagesController.php(68): Controller->render('home')
+#6 [internal function]: PagesController->display('home')
+#7 /projects/start/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /projects/start/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-03-06 15:28:10 Error: [MissingPluginException] Plugin SmartyView could not be found.
+Exception Attributes: array (
+  'plugin' => 'SmartyView',
+)
+Request URL: /
+Stack Trace:
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/app/Controller/PagesController.php(68): Controller->render('home')
+#6 [internal function]: PagesController->display('home')
+#7 /projects/start/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /projects/start/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-03-06 15:43:28 Error: [MissingPluginException] Plugin SmartyView could not be found.
+Exception Attributes: array (
+  'plugin' => 'SmartyView',
+)
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Core/App.php(227): CakePlugin::path('SmartyView')
+#1 /projects/start/lib/Cake/Core/App.php(549): App::path('View', 'SmartyView')
+#2 [internal function]: App::load('SmartyView')
+#3 /projects/start/lib/Cake/Controller/Controller.php(1247): spl_autoload_call('SmartyView')
+#4 /projects/start/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#5 /projects/start/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /projects/start/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SampleController), Object(CakeRequest))
+#7 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
