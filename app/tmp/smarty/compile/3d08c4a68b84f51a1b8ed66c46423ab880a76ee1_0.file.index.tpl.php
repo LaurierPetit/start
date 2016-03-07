@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-03-07 11:10:03
+/* Smarty version 3.1.29, created on 2016-03-07 11:18:01
   from "/projects/start/app/View/Sample/index.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_56dce2fb3ca757_86648761',
+  'unifunc' => 'content_56dce4d9d09d21_04842064',
   'file_dependency' => 
   array (
     '3d08c4a68b84f51a1b8ed66c46423ab880a76ee1' => 
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_56dce2fb3ca757_86648761 ($_smarty_tpl) {
+function content_56dce4d9d09d21_04842064 ($_smarty_tpl) {
 ?>
 <html>
 <head>
