@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-03-07 11:18:01
+/* Smarty version 3.1.29, created on 2016-03-07 17:38:44
   from "/projects/start/app/View/Sample/index.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_56dce4d9d09d21_04842064',
+  'unifunc' => 'content_56dd3e14710381_19807484',
   'file_dependency' => 
   array (
     '3d08c4a68b84f51a1b8ed66c46423ab880a76ee1' => 
     array (
       0 => '/projects/start/app/View/Sample/index.tpl',
-      1 => 1457317539,
+      1 => 1457339888,
       2 => 'file',
     ),
   ),
@@ -19,13 +19,11 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_56dce4d9d09d21_04842064 ($_smarty_tpl) {
+function content_56dd3e14710381_19807484 ($_smarty_tpl) {
 ?>
 <html>
 <head>
 </head>
-    <h1>テストページ！！</h1>
-    <p><?php echo $_smarty_tpl->tpl_vars['test']->value;?>
-</p>
+    <h1>CSSの適用</h1>
 </html><?php }
 }

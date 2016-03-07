@@ -1,6 +1,5 @@
 <html>
 <head>
 </head>
-    <h1>テストページ！！</h1>
-    <p>{$test}</p>
+    <h1>CSSの適用</h1>
 </html>

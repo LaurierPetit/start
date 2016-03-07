@@ -7,7 +7,6 @@ class SampleController extends AppController {
     var $view = 'Smarty';
 
     public function index() {
-        $this->autoLayout = false;
         $this->set('test','テスト');
     }
 
