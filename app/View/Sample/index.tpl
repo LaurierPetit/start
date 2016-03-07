@@ -2,5 +2,5 @@
 <head>
 </head>
     <h1>テストページ！！</h1>
-    <p>test</p>
+    <p>{$test}</p>
 </html>
