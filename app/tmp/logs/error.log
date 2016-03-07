@@ -230,3 +230,98 @@ Stack Trace:
 #3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-03-07 17:50:11 Error: Fatal Error (1): Call to a member function css() on a non-object in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-07 17:50:11 Error: [FatalErrorException] Call to a member function css() on a non-object
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-07 17:50:28 Error: Fatal Error (1): Call to a member function css() on a non-object in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-07 17:50:28 Error: [FatalErrorException] Call to a member function css() on a non-object
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-07 17:52:15 Error: Fatal Error (1): Call to a member function css() on a non-object in [/projects/start/app/Controller/SampleController.php, line 11]
+2016-03-07 17:52:15 Error: [FatalErrorException] Call to a member function css() on a non-object
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/projects/start...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/projects/start...', 11, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/projects/start...', 11, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-07 18:04:48 Error: Fatal Error (4): syntax error, unexpected '<' in [/projects/start/app/View/Layouts/default.ctp, line 33]
+2016-03-07 18:04:48 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 33, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 33, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-07 18:47:21 Error: Fatal Error (4): syntax error, unexpected '<' in [/projects/start/app/View/Layouts/default.ctp, line 33]
+2016-03-07 18:47:21 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sample
+Stack Trace:
+#0 /projects/start/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/projects/start...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/projects/start...', 33, Array)
+#2 /projects/start/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/projects/start...', 33, Array)
+#3 /projects/start/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-07 18:56:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1min.js
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-07 18:57:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1min.js
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-07 18:58:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1min.js
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-07 18:59:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1min.js
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-07 19:00:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1min.js
+Stack Trace:
+#0 /projects/start/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

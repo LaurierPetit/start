@@ -25,8 +25,12 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo $cakeDescription ?>:
 		<?php echo $this->fetch('title'); ?>
 	</title>
+
 	<?php
 		echo $this->Html->meta('icon');
+
+		echo $this->Html->css('bootstrap.min.css');
+		echo $this->Html->script('jquery-1.9.1min', array('inline'=>false));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
