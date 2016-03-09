@@ -4,6 +4,7 @@
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
+
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -28,35 +29,81 @@
       </div>
     </div>
 
-    <form class="form-horizontal">
+    <form class="form-horizontal container">
       <div class="form-group">
-        <label for="inputName" class="col-sm-2 control-label">名前</label>
+        <label for="optionsRadios">
+        Q1.あなたは、このイベントをどこで見聞きして知りましたか？<br>
+        当てはまるもの全て選択してください。(複数選択可)</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputName">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">性別</label>
-        <div class="col-sm-10">
-          <div class="radio">
+          <div class="checkbox">
             <label>
-              <input type="radio" name="optionsRadios" id="male" value="male" checked>
-              男性
+              <input type="checkbox" name="checkbox" id="hp" value="hp">
+              ホームページ
             </label>
           </div>
-          <div class="radio">
+          <div class="checkbox">
             <label>
-              <input type="radio" name="optionsRadios" id="female" value="female">
-              女性
+              <input type="checkbox" name="checkbox" id="sns" value="sns">
+              SNS・ブログ
             </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="checkbox" id="family" value="family">
+              家族・友人・知人
+            </label>
+          </div>
+          <div class="checkbox form-inline">
+            <label>
+              <input type="checkbox" name="checkbox" id="other" value="other">
+              その他
+            </label>
+            <input type="text" class="form-control" id="other">
           </div>
         </div>
       </div>
+      <br>
+      <div class="form-group">
+        <label for="inlineRadioOptions">
+          Q2.今回のセミナーについて、総合的にどのくらい満足していますか？
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+          満足
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          やや満足
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          どちらともいえない
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          やや不満
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          不満
+        </label>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="inlineRadioOptions">
+          Q3.Q2.で回答した理由をお書きください。
+        </label>
+        <textarea class="form-control" rows="3"></textarea>
+      </div>
+      <br>
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" class="btn btn-default">send</button>
         </div>
       </div>
+
     </form>
 </body>
 

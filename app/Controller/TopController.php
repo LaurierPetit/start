@@ -1,8 +1,7 @@
-
 <?php
 App::uses('AppController', 'Controller');
 
-class SampleController extends AppController {
+class TopController extends AppController {
     var $uses = array();
     var $view = 'Smarty';
 
